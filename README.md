@@ -1,6 +1,15 @@
 # DemoKafka
 https://dockone.io/article/10114
 
+在運行這個項目程序之前，需要運行 zookeeper 和 kafka ，
+啓動zookeeper服務 -
+
+D:\software\kafka_2.12-1.0.1\bin\windows> zookeeper-server-start.bat D:\software\kafka_2.12-1.0.1\config\zookeeper.properties
+啓動kafka服務 -
+
+D:\software\kafka_2.12-1.0.1\bin\windows> kafka-server-start.bat D:\software\kafka_2.12-1.0.1\config\server.properties
+
+
 STEP 1: GET KAFKA
 Download the latest Kafka release and extract it:
 
